@@ -15,5 +15,5 @@ jobs:
       - name: Update README
         uses: notweerdmonk/update-readme-action@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.UPDATE_README_GITHUB_TOKEN }}
           username: notweerdmonk
