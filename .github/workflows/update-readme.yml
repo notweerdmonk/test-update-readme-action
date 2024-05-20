@@ -18,6 +18,8 @@ jobs:
         uses: notweerdmonk/update-readme-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.UPDATE_README_GITHUB_TOKEN }}
+          NUM_RECENT: 5
         with:
           github_token: ${{ secrets.UPDATE_README_GITHUB_TOKEN }}
           username: notweerdmonk
+          num_recent: 5
